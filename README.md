@@ -38,18 +38,99 @@ A simple and efficient expense tracking application built with Flutter. This app
 
 ### Prerequisites
 
-- ✅ [Flutter SDK](https://flutter.dev/docs/get-started/install) installed
-- ✅ Android Studio (for emulator setup) or a real Android device
-- ✅ Visual Studio Code or Android Studio (your choice)
-- ✅ Emulator set up OR USB debugging enabled on your Android phone
+Before running the app, make sure you have the following installed on your system:
+
+- ✅ [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- ✅ Android Studio (for emulator or AVD setup)
+- ✅ Visual Studio Code (or any preferred IDE with Flutter support)
+- ✅ A device: either an Android emulator or a physical device
 
 ---
 
-### 📦 Installation
+### 📦 Installation Steps
+
+Follow these steps to run the project on your local machine:
+
+1. **Clone the repository**:
 
 ```bash
 git clone https://github.com/yourusername/expense_tracker_flutter.git
 cd expense_tracker_flutter
+```
+
+2. **Get Flutter dependencies**:
+
+```bash
 flutter pub get
+```
+
+3. **Run the app**:
+
+```bash
 flutter run
+```
+
+You will be prompted to select a device. Choose either your emulator or physical device.
+
+---
+
+## 🗂️ Project Structure
+
+```
+lib/
+├── main.dart                # Entry point of the app
+├── models/
+│   └── expense.dart         # Expense data model
+├── screens/
+│   ├── home_screen.dart     # Contains bottom navigation and routing
+│   ├── home_tab.dart        # Home welcome/info screen
+│   ├── expense_list_tab.dart # List of all expenses
+│   └── report_tab.dart      # Monthly report screen
+├── widgets/
+│   ├── expense_form.dart    # Add/Edit expense form
+│   ├── expense_list.dart    # Widget for displaying expenses
+│   └── monthly_report.dart  # Widget for monthly comparison chart
+```
+
+---
+
+## 🧭 Navigation
+
+The app uses a bottom navigation bar to switch between:
+
+- **🏠 Home** – App introduction or summary
+- **🧾 Expense List** – Displays all expenses with edit and delete buttons
+- **📈 Report** – Monthly expense summary with comparisons
+
+---
+
+## 🧪 Testing the App
+
+- Try adding different expenses for different months.
+- Use the **edit icon** to update any existing expense.
+- Use the **delete icon** to remove an expense.
+- Switch tabs to see the report update dynamically.
+
+---
+
+## ✨ Future Improvements
+
+- Persist data using `Hive` or `SQLite`
+- Add category filters and sorting options
+- Export monthly report as PDF
+- User login for syncing expenses with the cloud
+- Advanced charts using `fl_chart` or `charts_flutter`
+
+---
+
+## 🧑‍💻 Author
+
+**Ningthoujam Rabichand Singh**  
+Flutter Developer & Student  
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
