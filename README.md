@@ -1,20 +1,54 @@
-# expense_tracker
-<<<<<<< HEAD
+# 💸 Flutter Expense Tracker App
 
-A new Flutter project.
+A simple and efficient expense tracking application built with Flutter. This app allows users to record their daily expenses, view and edit them, and see a **monthly spending report** with comparisons against previous months.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Add new expenses (category, amount, date, description)
+- 📝 Edit existing expenses
+- ❌ Delete expenses
+- 📋 View all expenses in a list
+- 📊 Monthly report with comparison to previous months
+- 🧭 Bottom Navigation Bar with:
+  - Home tab
+  - Expense List tab
+  - Report tab
+- 🎨 Clean, responsive UI built with Material Design
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-Flutter App
->>>>>>> 3a00d821a412f805c0365180d19654e3fe843ae8
+## 📷 Screenshots
+
+> *(Add emulator screenshots here once ready)*
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** (UI framework)
+- **Dart** (programming language)
+- State management using `setState`
+- Local storage (in-memory for now — can be extended to SQLite/Shared Preferences)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- ✅ [Flutter SDK](https://flutter.dev/docs/get-started/install) installed
+- ✅ Android Studio (for emulator setup) or a real Android device
+- ✅ Visual Studio Code or Android Studio (your choice)
+- ✅ Emulator set up OR USB debugging enabled on your Android phone
+
+---
+
+### 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/expense_tracker_flutter.git
+cd expense_tracker_flutter
+flutter pub get
+flutter run
