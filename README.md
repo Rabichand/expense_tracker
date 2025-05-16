@@ -53,7 +53,3 @@ cd expense_tracker_flutter
 flutter pub get
 flutter run
 
-🧑‍💻 Author
-Ningthoujam Rabichand Singh
-Flutter Developer & Student
-
